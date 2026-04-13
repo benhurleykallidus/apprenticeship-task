@@ -5,7 +5,7 @@ var currentYear = DateTime.Now.Year;
 
 Console.WriteLine("Do you want the 1.DateTime, 2.Day, 3.Month, or 4.Year? Enter 1-4");
 
-var userInput = Console.ReadLine();
+var userInput = Console.ReadLine()?.Trim().ToLower();
 
 var message = userInput switch
 {
