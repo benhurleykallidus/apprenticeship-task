@@ -1,4 +1,4 @@
-﻿var continueRunning = true;
+var continueRunning = true;
 while (continueRunning)
 {
 	var currentDateTime = DateTime.Now;
